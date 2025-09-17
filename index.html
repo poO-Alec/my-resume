@@ -1,36 +1,51 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>简历 - 彭程浩</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 20px;
-            background: #f5f5f5;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-        .resume-container {
-            max-width: 100%;
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-        }
-        .resume-img {
-            width: 100%;
-            height: auto;
-            display: block;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>彭程浩的作品集主页</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #f0f0f0;
+      padding: 40px;
+      text-align: center;
+    }
+    h1 {
+      margin-bottom: 40px;
+    }
+    .category-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .category {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      width: 200px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+      text-decoration: none;
+      color: #333;
+      font-size: 18px;
+      transition: 0.3s ease;
+    }
+    .category:hover {
+      background: #f9f9f9;
+      transform: scale(1.05);
+    }
+  </style>
 </head>
 <body>
-    <div class="resume-container">
-        < img src="resume.jpg" alt="个人简历" class="resume-img">
-    </div>
+  <h1>Alec 的作品集</h1>
+  <div class="category-list">
+    <a class="category" href=" ">📄 简历 & 文字页</a >
+    <a class="category" href="02_aigc/index.html">🤖 AIGC 展示（视频类）</a >
+    <a class="category" href="03_chibi-scene/index.html">🌄 Q版场景类</a >
+    <a class="category" href="04_chibi-character/index.html">🧍 Q版角色类</a >
+    <a class="category" href="05_ip-design/index.html">🎁 潮玩 / 文创类</a >
+    <a class="category" href="06_jp-character/index.html">🌸 日系角色类</a >
+    <a class="category" href="07_illustration/index.html">🎨 插画类</a >
+  </div>
 </body>
 </html>
