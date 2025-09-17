@@ -1,51 +1,57 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh">
 <head>
-  <meta charset="UTF-8">
-  <title>彭程浩的作品集主页</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>彭程浩 的作品集目录</title>
   <style>
     body {
-      font-family: sans-serif;
-      background: #f0f0f0;
+      font-family: "Helvetica Neue", sans-serif;
+      background-color: #f7f7f7;
+      margin: 0;
       padding: 40px;
-      text-align: center;
+      color: #333;
     }
     h1 {
-      margin-bottom: 40px;
+      text-align: center;
+      margin-bottom: 50px;
+      font-size: 32px;
     }
-    .category-list {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 20px;
+    ul {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 0;
+      list-style: none;
     }
-    .category {
-      background: white;
+    li {
+      background: #fff;
+      margin: 10px 0;
       padding: 20px;
-      border-radius: 10px;
-      width: 200px;
-      box-shadow: 0 5px 20px rgba(0,0,0,0.1);
-      text-decoration: none;
-      color: #333;
-      font-size: 18px;
-      transition: 0.3s ease;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      transition: 0.2s;
     }
-    .category:hover {
-      background: #f9f9f9;
-      transform: scale(1.05);
+    li:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    }
+    a {
+      text-decoration: none;
+      color: #0077cc;
+      font-size: 18px;
     }
   </style>
 </head>
 <body>
-  <h1>彭程浩的作品集</h1>
-  <div class="category-list">
-    <a class="category" href=" ">📄 简历 & 文字页</a >
-    <a class="category" href="02_aigc/index.html">🤖 AIGC 展示（视频类）</a >
-    <a class="category" href="03_chibi-scene/index.html">🌄 Q版场景类</a >
-    <a class="category" href="04_chibi-character/index.html">🧍 Q版角色类</a >
-    <a class="category" href="05_ip-design/index.html">🎁 潮玩 / 文创类</a >
-    <a class="category" href="06_jp-character/index.html">🌸 日系角色类</a >
-    <a class="category" href="07_illustration/index.html">🎨 插画类</a >
-  </div>
+  <h1>彭程浩 的作品集目录</h1>
+  <ul>
+    <li><a href=" " target="_blank">📄 简历与文字页</a ></li>
+    <li><a href="02_aigc.html">✨ AIGC 作品展示（视频）</a ></li>
+    <li><a href="03_chibi-scenes.html">🌿 Q版场景作品集</a ></li>
+    <li><a href="04_chibi-characters.html">🎨 Q版角色作品集</a ></li>
+    <li><a href="05_ip-design.html">📦 潮玩 / IP / 文创作品</a ></li>
+    <li><a href="06_jp-character.html">🍃 日系角色作品集</a ></li>
+    <li><a href="07_illustration.html">🖌️ 插画作品集</a ></li>
+  </ul>
 </body>
 </html>
